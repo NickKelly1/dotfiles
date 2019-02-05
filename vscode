@@ -1,0 +1,133 @@
+{
+    // keyboard.dispatch is required
+    // for linux / gnome systems
+    // to allow the gnome key
+    // mappings to be used in VSC
+    // instead of the keyboards key mappings
+    // "keyboard.dispatch": "keyCode",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-w>": false,
+    },
+    "vim.history": 5,
+    "vim.hlsearch": true,
+    "todo-tree.defaultHighlight": {
+        "opacity": 5,
+    },
+    "todo-tree.customHighlight": {
+        "TODO": {
+            "icon": "check",
+            "type": "tag",
+            "iconColour": "orange",
+            "foreground": "orange",
+            "background": "black"
+        },
+        "FIXME": {
+            "icon": "bug",
+            "type": "text",
+            "iconColour": "red",
+            "foreground": "red",
+            "background": "black"
+        },
+        "NAME": {
+            "icon": "italic",
+            "type": "tag",
+            "iconColour": "cyan",
+            "foreground": "cyan",
+            "background": "black"
+        },
+        "NOTE": {
+            "icon": "note",
+            "type": "tag",
+            "iconColour": "violet",
+            "foreground": "violet",
+            "background": "black"
+        },
+        "DESCRIPTION": {
+            "icon": "info",
+            "type": "tag",
+            "iconColour": "violet",
+            "foreground": "violet",
+            "background": "black"
+        },
+        "TAG": {
+            "icon": "tag",
+            "type": "tag",
+            "iconColour": "springgreen",
+            "foreground": "springgreen",
+            "background": "black"
+        },
+        "DEPRECATED": {
+            "icon": "stop",
+            "type": "tag",
+            "iconColour": "red",
+            "foreground": "red",
+            "background": "black"
+        },
+        "DOCUMENTATION": {
+            "icon": "repo-clone",
+            "type": "tag",
+            "iconColour": "yellow",
+            "foreground": "yellow",
+            "background": "black"
+        },
+        "URGENT": {
+            "icon": "alert",
+            "type": "tag",
+            "iconColour": "crimson",
+            "foreground": "crimson",
+            "background": "black"
+        },
+        "PARAM": {
+            "icon": "pencil",
+            "type": "tag",
+            "iconColour": "magenta",
+            "foreground": "magenta",
+            "background": "black"
+        },
+        "BOOKMARK": {
+            "icon": "location",
+            "type": "line",
+            "iconColour": "chartreuse",
+            "foreground": "chartreuse",
+            "background": "black"
+        },
+        "EXPERIMENTAL": {
+            "icon": "beaker",
+            "type": "tag",
+            "iconColour": "yellow",
+            "foreground": "yellow",
+            "background": "black"
+        }
+    },
+    "todo-tree.tags": [
+        "TODO",
+        "FIXME",
+        "NAME",
+        "NOTE",
+        "DESCRIPTION",
+        "TAG",
+        "DEPRECATED",
+        "DOCUMENTATION",
+        "URGENT",
+        "PARAM",
+        "BOOKMARK",
+        "EXPERIMENTAL",
+    ],
+    "todo-tree.regexCaseSensitive": false,
+    "todo-tree.regex": "((//|//@|// @|#|#@|# @|<!--|<!--@|<!-- @|;@|; @|\\* @|\\* |/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
+    "editor.rulers": [
+        60,
+        120
+    ],
+    "indentRainbow.errorColor": "rgba(255, 7, 7, 0.5)",
+    "workbench.colorTheme": "Noctis Obscuro",
+    "editor.fontFamily": "'Fira Code iScript', Consolas, 'Courier New', monospace",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 13,
+    "liveServer.settings.donotShowInfoMsg": true,
+}
