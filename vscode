@@ -30,7 +30,7 @@
             "icon": "bug",
             "type": "text",
             "iconColour": "red",
-            "foreground": "red",
+            "foreground": "red",http://localhost:3000/
             "background": "black"
         },
         "NAME": {
@@ -76,7 +76,7 @@
             "background": "black"
         },
         "URGENT": {
-            "icon": "alert",
+            "icon": "alert",http://localhost:3000/
             "type": "tag",
             "iconColour": "crimson",
             "foreground": "crimson",
@@ -115,11 +115,11 @@
         "DOCUMENTATION",
         "URGENT",
         "PARAM",
-        "BOOKMARK",
+        "BOOKMARK",http://localhost:3000/
         "EXPERIMENTAL",
     ],
     "todo-tree.regexCaseSensitive": false,
-    "todo-tree.regex": "((//|//@|// @|#|#@|# @|<!--|<!--@|<!-- @|;@|; @|\\* @|\\* |/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
+    "todo-tree.regex": "((//|//@|// @|#|#@|# @|<!--|<!--@|<!-- @|;@|; @|\\* @|\\* |/\\*)\\s*($TAGS)|^\\s*- \\[ \\])",
     "editor.rulers": [
         60,
         120
