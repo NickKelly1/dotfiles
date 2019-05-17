@@ -8,7 +8,7 @@
     // Git Bash
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.snippetSuggestions": "top",
+    "editor.snippetSuggestions": "bottom",
     "editor.formatOnPaste": true,
     "workbench.statusBar.visible": true,
     "workbench.sideBar.location": "left",
@@ -232,12 +232,18 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     "eslint.alwaysShowStatus": true,
     "material-icon-theme.folders.theme": "specific",
-    "vs-kubernetes": {
-        "vs-kubernetes.minikube-path": "/home/nick/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
-        "vs-kubernetes.helm-path": "/home/nick/.vs-kubernetes/tools/helm/linux-amd64/helm",
-        "vs-kubernetes.draft-path": "/home/nick/.vs-kubernetes/tools/draft/linux-amd64/draft"
-    },
-    "editor.suggestSelection": "first",
-    "workbench.colorTheme": "One Dark Pro Bold",
-    "editor.renderWhitespace": "boundary"
-}1
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "workbench.colorTheme": "One Dark Pro Vivid",
+    "editor.renderWhitespace": "boundary",
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.suggest.shareSuggestSelections": true,
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "python.jediEnabled": false,
+    "codemetrics.basics.ComplexityLevelExtremeDescription": "💥  EXTREME",
+    "codemetrics.basics.ComplexityLevelHighDescription": "😬  HIGH",
+    "codemetrics.basics.ComplexityLevelLowDescription": "💜  LOW",
+    "codemetrics.basics.ComplexityLevelNormalDescription": "👍  MEDIUM",
+    "codemetrics.basics.ComplexityTemplate": "{0} {1} Complexity",
+    "debug.showSubSessionsInToolBar": true,
+}
